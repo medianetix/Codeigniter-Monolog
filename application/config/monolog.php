@@ -15,7 +15,7 @@ $config['handler']     = 'file';    /* valid handlers are syslog|file|gelf|raven
 $config['name']        = 'codeigniter';
 $config['threshold']   = '4';    /* log all */
 $config['formatter']   = 'line';
-$config['line_format'] = '[%datetime%] %channel%.%level_name%: %message%';
+$config['line_format'] = "[%datetime%] %channel%.%level_name%: %message%\n";
 /* use this if you log to syslog */
 /* $config['line_format'] = '%channel%.%level_name%: %message%'; */
 
